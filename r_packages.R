@@ -2,6 +2,9 @@
 install.packages("BiocManager", repos='http://cran.us.r-project.org')
 library(BiocManager)
 
+# Downstream Analysis
+install("debrowser", ask = FALSE)
+
 # Heatmaps
 install.packages("dplyr", repos='http://cran.us.r-project.org')
 install.packages("ComplexHeatmap", repos='http://cran.us.r-project.org')
