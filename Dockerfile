@@ -41,5 +41,9 @@ RUN git clone https://github.com/dolphinnext/tools /usr/local/bin/dolphin-tools
 RUN mkdir -p /project /nl /mnt /share
 ENV PATH /opt/conda/envs/dolphinnext-dmetausecase2-1.0/bin:/usr/local/bin/dolphin-tools/:$PATH
 
+# Install cmake for survminer package in R
+RUN apt-get -y install cmake
+
+# Install packages
 COPY r_packages.R /
 RUN Rscript r_packages.R
