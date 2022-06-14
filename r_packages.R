@@ -15,7 +15,7 @@ install.packages("umap", repos='http://cran.us.r-project.org')
 
 # survival analysis for TCGA 
 install.packages("survival", repos='http://cran.us.r-project.org')
-install.packages("survminer", repos='http://cran.us.r-project.org')
-install.packages("RTCGA", repos='http://cran.us.r-project.org')
-install.packages("RTCGA.clinical", repos='http://cran.us.r-project.org')
-install.packages("RTCGA.rnaseq", repos='http://cran.us.r-project.org')
+install("survminer", ask = FALSE)
+install("RTCGA", ask = FALSE)
+install("RTCGA.clinical", ask = FALSE)
+install("RTCGA.rnaseq", ask = FALSE)
