@@ -6,6 +6,7 @@ library(BiocManager)
 install("debrowser", ask = FALSE)
 
 # Heatmaps and graphs
+install.packages("ggplot2", repos='http://cran.us.r-project.org')
 install.packages("dplyr", repos='http://cran.us.r-project.org')
 install.packages("ComplexHeatmap", repos='http://cran.us.r-project.org')
 install.packages("reshape2", repos='http://cran.us.r-project.org')
